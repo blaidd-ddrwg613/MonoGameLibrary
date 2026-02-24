@@ -23,3 +23,16 @@ C:\Code\2D Platformer\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.dll
 C:\Code\2D Platformer\MonoGameLibrary\obj\Debug\net8.0\refint\MonoGameLibrary.dll
 C:\Code\2D Platformer\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.pdb
 C:\Code\2D Platformer\MonoGameLibrary\obj\Debug\net8.0\ref\MonoGameLibrary.dll
+E:\Code\MonoGameLibrary\bin\Debug\net8.0\MonoGameLibrary.deps.json
+E:\Code\MonoGameLibrary\bin\Debug\net8.0\MonoGameLibrary.dll
+E:\Code\MonoGameLibrary\bin\Debug\net8.0\MonoGameLibrary.pdb
+E:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.csproj.AssemblyReference.cache
+E:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.AssemblyInfoInputs.cache
+E:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.AssemblyInfo.cs
+E:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.csproj.CoreCompileInputs.cache
+E:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.sourcelink.json
+E:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.dll
+E:\Code\MonoGameLibrary\obj\Debug\net8.0\refint\MonoGameLibrary.dll
+E:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.pdb
+E:\Code\MonoGameLibrary\obj\Debug\net8.0\ref\MonoGameLibrary.dll

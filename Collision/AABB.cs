@@ -1,13 +1,15 @@
-﻿namespace MonoGameLibrary.Collision;
+﻿using Microsoft.Xna.Framework;
+
+namespace MonoGameLibrary.Collision;
 
 public class AABB
 {
     public static bool CheckForCollision(Rectangle a, Rectangle b)
     {
-        var ALeftOfB = a.GetRight() <= b.GetLeft();
-        var ARightOfB = a.GetLeft() >= b.GetRight();
-        var AAboveB = a.GetBottom() <= b.GetTop();
-        var ABelowB = a.GetTop() >= b.GetBottom();
+        var ALeftOfB = a.Right < b.Left;
+        var ARightOfB = a.Left > b.Right;
+        var AAboveB = a.Bottom < b.Top;
+        var ABelowB = a.Top > b.Bottom;
 
         return !(ALeftOfB || ARightOfB || AAboveB || ABelowB);
     }
