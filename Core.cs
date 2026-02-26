@@ -4,6 +4,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using MonoGameLibrary.Audio;
+using MonoGameLibrary.Camera;
 using MonoGameLibrary.Input;
 using MonoGameLibrary.Scenes;
 
@@ -59,6 +60,14 @@ public class Core : Game
     /// Gets a reference to the audio control system.
     /// </summary>
     public static AudioController Audio { get; private set; }
+    
+    /// <summary>
+    /// Gets a reference to the Resolution Renderer used for the camera
+    /// </summary>
+    public static ResolutionRenderer ResolutionRenderer { get; private set; }
+    
+    private const int VIRTUAL_RESOLUTION_WIDTH = 1280;
+    private const int VIRTUAL_RESOLUTION_HEIGHT = 720;
 
     /// <summary>
     /// Creates a new Core instance.
@@ -120,6 +129,10 @@ public class Core : Game
 
         // Create a new audio controller.
         Audio = new AudioController();
+
+        ResolutionRenderer = new ResolutionRenderer(this, VIRTUAL_RESOLUTION_WIDTH, VIRTUAL_RESOLUTION_HEIGHT, 
+            Graphics.PreferredBackBufferWidth, 
+            Graphics.PreferredBackBufferHeight);
         
         base.Initialize();
     }
@@ -136,7 +149,7 @@ public class Core : Game
     {
         // Update the input manager.
         Input.Update(gameTime);
-
+        
         // Update the audio controller.
         Audio.Update();
 

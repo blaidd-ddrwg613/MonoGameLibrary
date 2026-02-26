@@ -36,3 +36,16 @@ E:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.dll
 E:\Code\MonoGameLibrary\obj\Debug\net8.0\refint\MonoGameLibrary.dll
 E:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.pdb
 E:\Code\MonoGameLibrary\obj\Debug\net8.0\ref\MonoGameLibrary.dll
+C:\Code\MonoGameLibrary\bin\Debug\net8.0\MonoGameLibrary.deps.json
+C:\Code\MonoGameLibrary\bin\Debug\net8.0\MonoGameLibrary.dll
+C:\Code\MonoGameLibrary\bin\Debug\net8.0\MonoGameLibrary.pdb
+C:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.csproj.AssemblyReference.cache
+C:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.AssemblyInfoInputs.cache
+C:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.AssemblyInfo.cs
+C:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.csproj.CoreCompileInputs.cache
+C:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.sourcelink.json
+C:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.dll
+C:\Code\MonoGameLibrary\obj\Debug\net8.0\refint\MonoGameLibrary.dll
+C:\Code\MonoGameLibrary\obj\Debug\net8.0\MonoGameLibrary.pdb
+C:\Code\MonoGameLibrary\obj\Debug\net8.0\ref\MonoGameLibrary.dll

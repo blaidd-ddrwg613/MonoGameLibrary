@@ -105,4 +105,10 @@ public class Sprite
     {
         Region.Draw(spriteBatch, position, Color, Rotation, Origin, Scale, Effects, LayerDepth);
     }
+
+    public Rectangle GetSpriteRectangle()
+    {
+        var toRet = new Rectangle(this.Origin.ToPoint(), new Vector2(this.Width, this.Height).ToPoint());
+        return toRet;
+    }
 }
