@@ -171,7 +171,7 @@ public class TextureAtlas
                 //
                 // So we retrieve all of the <Region> elements then loop through each one
                 // and generate a new TextureRegion instance from it and add it to this atlas.
-                var regions = root.Element("Regions")?.Elements("SubTexture");
+                var regions = root.Element("Regions")?.Elements("Region");
 
                 if (regions != null)
                 {

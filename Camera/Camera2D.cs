@@ -110,6 +110,12 @@ public class Camera2D : IDisposable
         else ratio = ResolutionRenderer.VirtualHeight / (float)rec.Height;
         Zoom = ratio;
     }
+    
+    public void FollowTarget(Rectangle targetRect, Vector2 targetPosition)
+    {
+        // CenterOnTarget(targetRect);
+        SetPosition(targetPosition);
+    }
 
     /// <summary>
     /// Move camera by specified vector
