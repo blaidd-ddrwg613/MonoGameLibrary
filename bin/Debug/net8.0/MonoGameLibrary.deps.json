@@ -9,6 +9,8 @@
       "MonoGameLibrary/1.0.0": {
         "dependencies": {
           "Gum.MonoGame": "2026.2.23.1",
+          "LDtkMonogame": "1.8.1",
+          "MonoGame.Extended": "5.4.0",
           "MonoGame.Framework.DesktopGL": "3.8.4.1"
         },
         "runtime": {
@@ -55,11 +57,30 @@
           }
         }
       },
+      "LDtkMonogame/1.8.1": {
+        "dependencies": {
+          "MonoGame.Framework.DesktopGL": "3.8.4.1"
+        },
+        "runtime": {
+          "lib/net8.0/LDtkMonogame.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
         "runtime": {
           "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "assemblyVersion": "7.0.0.0",
             "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "MonoGame.Extended/5.4.0": {
+        "runtime": {
+          "lib/net8.0/MonoGame.Extended.dll": {
+            "assemblyVersion": "5.4.0.0",
+            "fileVersion": "5.4.0.0"
           }
         }
       },
@@ -209,12 +230,26 @@
       "path": "gum.monogame/2026.2.23.1",
       "hashPath": "gum.monogame.2026.2.23.1.nupkg.sha512"
     },
+    "LDtkMonogame/1.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xADTvwDdI3YdqSDXZAp3pHkv4hssPs1Er6E+i8N1LLrE/uLeAKtdYM2fHPVInphSi4XgN+zrt6lBztqkj+h2cg==",
+      "path": "ldtkmonogame/1.8.1",
+      "hashPath": "ldtkmonogame.1.8.1.nupkg.sha512"
+    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
       "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
       "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    },
+    "MonoGame.Extended/5.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wqUu2k/IETqF5Y4fUIzCTH7+I36Z4bEUyKJaTEkGngQW6ux8ZvP2syhM5EOekDigNRR6T4I7wpjctnW7jKYEFA==",
+      "path": "monogame.extended/5.4.0",
+      "hashPath": "monogame.extended.5.4.0.nupkg.sha512"
     },
     "MonoGame.Framework.DesktopGL/3.8.4.1": {
       "type": "package",

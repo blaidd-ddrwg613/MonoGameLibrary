@@ -48,6 +48,14 @@
               "target": "Package",
               "version": "[2026.2.23.1, )"
             },
+            "LDtkMonogame": {
+              "target": "Package",
+              "version": "[1.8.1, )"
+            },
+            "MonoGame.Extended": {
+              "target": "Package",
+              "version": "[5.4.0, )"
+            },
             "MonoGame.Framework.DesktopGL": {
               "suppressParent": "All",
               "target": "Package",

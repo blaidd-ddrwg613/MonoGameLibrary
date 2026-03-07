@@ -74,6 +74,22 @@
           }
         }
       },
+      "LDtkMonogame/1.8.1": {
+        "type": "package",
+        "dependencies": {
+          "MonoGame.Framework.DesktopGL": "3.8.4.1"
+        },
+        "compile": {
+          "lib/net8.0/LDtkMonogame.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/LDtkMonogame.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.CSharp/4.7.0": {
         "type": "package",
         "compile": {
@@ -97,6 +113,19 @@
         },
         "build": {
           "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "MonoGame.Extended/5.4.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/MonoGame.Extended.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/MonoGame.Extended.dll": {
+            "related": ".xml"
+          }
         }
       },
       "MonoGame.Framework.DesktopGL/3.8.4.1": {
@@ -327,6 +356,21 @@
         "lib/net9.0-ios18.0/MonoGameGum.xml"
       ]
     },
+    "LDtkMonogame/1.8.1": {
+      "sha512": "xADTvwDdI3YdqSDXZAp3pHkv4hssPs1Er6E+i8N1LLrE/uLeAKtdYM2fHPVInphSi4XgN+zrt6lBztqkj+h2cg==",
+      "type": "package",
+      "path": "ldtkmonogame/1.8.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "ldtkmonogame.1.8.1.nupkg.sha512",
+        "ldtkmonogame.nuspec",
+        "lib/net8.0/LDtkMonogame.dll",
+        "lib/net8.0/LDtkMonogame.xml",
+        "readme.md"
+      ]
+    },
     "Microsoft.CSharp/4.7.0": {
       "sha512": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
       "type": "package",
@@ -423,6 +467,21 @@
         "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "MonoGame.Extended/5.4.0": {
+      "sha512": "wqUu2k/IETqF5Y4fUIzCTH7+I36Z4bEUyKJaTEkGngQW6ux8ZvP2syhM5EOekDigNRR6T4I7wpjctnW7jKYEFA==",
+      "type": "package",
+      "path": "monogame.extended/5.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net8.0/MonoGame.Extended.dll",
+        "lib/net8.0/MonoGame.Extended.xml",
+        "logo-nuget-128.png",
+        "monogame.extended.5.4.0.nupkg.sha512",
+        "monogame.extended.nuspec"
       ]
     },
     "MonoGame.Framework.DesktopGL/3.8.4.1": {
@@ -658,6 +717,8 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Gum.MonoGame >= 2026.2.23.1",
+      "LDtkMonogame >= 1.8.1",
+      "MonoGame.Extended >= 5.4.0",
       "MonoGame.Framework.DesktopGL >= 3.8.4.1"
     ]
   },
@@ -707,6 +768,14 @@
           "Gum.MonoGame": {
             "target": "Package",
             "version": "[2026.2.23.1, )"
+          },
+          "LDtkMonogame": {
+            "target": "Package",
+            "version": "[1.8.1, )"
+          },
+          "MonoGame.Extended": {
+            "target": "Package",
+            "version": "[5.4.0, )"
           },
           "MonoGame.Framework.DesktopGL": {
             "suppressParent": "All",
